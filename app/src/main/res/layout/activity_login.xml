@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.login.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/id_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <LinearLayout
+        style="@style/LoginLayout"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv1"
+            style="@style/LoginPage1and2"
+            android:background="@color/login1"
+            android:text="登录一" />
+
+        <TextView
+            android:id="@+id/tv2"
+            style="@style/LoginPage1and2"
+            android:background="@color/login2"
+            android:text="登录二" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LoginLayout"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv3"
+            style="@style/LoginPage1and2"
+            android:background="@color/login3"
+            android:text="登录三" />
+
+        <TextView
+            android:id="@+id/tv4"
+            style="@style/LoginPage1and2"
+            android:background="@color/login4"
+            android:text="登录四" />
+
+        <TextView
+            android:id="@+id/tv5"
+            style="@style/LoginPage1and2"
+            android:background="@color/login5"
+            android:text="登录五" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LoginLayout"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv6"
+            style="@style/LoginPage3and4"
+            android:background="@color/login6"
+            android:text="登录六" />
+
+        <TextView
+            android:id="@+id/tv7"
+            style="@style/LoginPage3and4"
+            android:background="@color/login7"
+            android:text="登录七" />
+    </LinearLayout>
+
+</LinearLayout>

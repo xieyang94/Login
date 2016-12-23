@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/log1_bac"
+    tools:context="com.example.administrator.login.com.example.login.Login1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dip"
+        android:layout_marginLeft="50dip"
+        android:layout_marginRight="50dip"
+        android:layout_marginTop="150dip"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:background="@null"
+                android:drawableBottom="@drawable/log1_edit_1"
+                android:hint="账号"
+                android:textColor="#ffffff"
+                android:textColorHint="#90ffffff"
+                android:textCursorDrawable="@null"
+                android:textSize="14dip" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:background="@null"
+                android:drawableBottom="@drawable/log1_edit_1"
+                android:hint="密码"
+                android:password="true"
+                android:textColor="#ffffff"
+                android:textColorHint="#90ffffff"
+                android:textCursorDrawable="@null"
+                android:textSize="14dip" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:background="@null"
+                android:drawableBottom="@drawable/log1_edit_1"
+                android:hint="密码"
+                android:password="true"
+                android:textColor="#ffffff"
+                android:textColorHint="#90ffffff"
+                android:textCursorDrawable="@null"
+                android:textSize="14dip" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="35dip"
+                android:layout_marginTop="30dip"
+                android:background="@drawable/log1_btn_1"
+                android:text="登    录"
+                android:textColor="#ffffff"
+                android:textSize="14dip" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

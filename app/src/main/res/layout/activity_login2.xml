@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/log2_bac"
+    tools:context="com.example.administrator.login.com.example.login.Login2">
+    <LinearLayout
+        android:layout_width="300dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dip"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="10dip"
+            android:gravity="center"
+            android:background="@drawable/log2_edit_user"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_marginLeft="10dip"
+                android:layout_width="20dip"
+                android:layout_height="20dip"
+                android:background="@drawable/log2_username" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:textSize="14sp"
+                android:layout_marginLeft="20dip"
+                android:background="@null"
+                android:drawableBottom="@drawable/log2_edit_1"
+                android:hint="用户名" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="10dip"
+            android:gravity="center"
+            android:background="@drawable/log2_edit_user"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_marginLeft="10dip"
+                android:layout_width="20dip"
+                android:layout_height="20dip"
+                android:background="@drawable/log2_password" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:textSize="14sp"
+                android:layout_marginLeft="20dip"
+                android:background="@null"
+                android:password="true"
+                android:drawableBottom="@drawable/log2_edit_1"
+                android:hint="用户密码" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="10dip"
+            android:gravity="center"
+            android:background="@drawable/log2_edit_user"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_marginLeft="10dip"
+                android:layout_width="20dip"
+                android:layout_height="20dip"
+                android:background="@drawable/log2_password" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:textSize="14sp"
+                android:layout_marginLeft="20dip"
+                android:background="@null"
+                android:password="true"
+                android:drawableBottom="@drawable/log2_edit_1"
+                android:hint="二次密码" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="20dip"
+            android:gravity="center"
+
+            android:orientation="horizontal" >
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:text="登     录"
+                android:textColor="#2B72A0"
+                android:background="@drawable/log2_btn_bac"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
